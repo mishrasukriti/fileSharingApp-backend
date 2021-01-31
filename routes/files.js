@@ -23,8 +23,7 @@ const s3Config = {
   s3Bucket: process.env.s3Bucket
 };
 AWS.config.update(s3Config);
-
-// AWS.config.region = s3Region ;
+AWS.config.region = s3Region ;
 
 const s3 = new AWS.S3();
 
