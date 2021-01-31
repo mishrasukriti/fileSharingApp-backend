@@ -24,7 +24,7 @@ const s3Config = {
 };
 AWS.config.update(s3Config);
 
-// AWS.config.region = s3Region ;
+AWS.config.region = s3Region ;
 
 const s3 = new AWS.S3();
 
