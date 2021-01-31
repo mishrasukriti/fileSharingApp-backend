@@ -11,7 +11,6 @@ const express = require("express");
 const dotenv = require("dotenv")
 const AWS = require('aws-sdk');
 const multerS3 = require('multer-s3')
-// const _ = require("lodash")
 
 //Code to upload file(s) to S3
 const s3Region = process.env.s3Region
